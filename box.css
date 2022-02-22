@@ -1,11 +1,11 @@
 body{
   padding: 30px;
 }
-.outside{
+.outside-box{
   padding: 30px;
   background-color: rgb(200, 129, 247);
 }
-.inside {
+.inside-box {
   height: 180px;
   background-color: rgb(255, 182, 239);
   margin: 20px;
