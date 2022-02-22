@@ -4,21 +4,21 @@ function reset()
   child.style.backgroundColor = 'rgb(255, 182, 239)';
 }
 
-function outside1()
+function outside()
 {
   parent.style.backgroundColor = 'blue';
 }
 
-function inside1()
+function inside()
 {
   child.style.backgroundColor = 'gray';
 }
 
-const parent = document.querySelector('.outside')
-parent.addEventListener('click', outside1)
+const parent = document.querySelector('.outside-box')
+parent.addEventListener('click', outside)
 
-const child = document.querySelector('.inside')
-child.addEventListener('click', inside1)
+const child = document.querySelector('.inside-box')
+child.addEventListener('click', inside)
 
 const button = document.querySelector('.button')
 button.addEventListener('click', reset)
