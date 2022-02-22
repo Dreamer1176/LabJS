@@ -1,15 +1,18 @@
-function show1(){
+function show1()
+{
     show.removeEventListener("click",show1);
     show.classList.add("hidden");
     hide.classList.remove("hidden");
 }
 
-function show2() {
+function show2() 
+{
     hide.classList.add("hidden");
     detail.classList.remove("hidden");
 }
 
-function hide1() {
+function hide1() 
+{
     hide.classList.remove("hidden");
     detail.classList.add("hidden");
 }
